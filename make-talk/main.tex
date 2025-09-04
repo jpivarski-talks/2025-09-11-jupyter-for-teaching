@@ -67,11 +67,11 @@ I almost called this talk ``Literate Programming for Teaching,'' \\ because that
 \uncover<2->{Jupyter is just the technology.}
 \end{frame}
 
-\begin{frame}{Behold, the ``Tioga'' workstation environment from 1982!}
+\begin{frame}{Behold, the ``Tioga'' code-editing environment from 1982!}
 \vspace{0.2 cm}
 \begin{columns}
 \column{0.95\linewidth}
-\includegraphics[width=\linewidth]{../img/screenshot-1982-cedar-tioga.png}
+\includegraphics[width=\linewidth]{img/screenshot-1982-cedar-tioga.png}
 \end{columns}
 \end{frame}
 
@@ -79,7 +79,7 @@ I almost called this talk ``Literate Programming for Teaching,'' \\ because that
 \vspace{0.2 cm}
 \begin{columns}
 \column{0.73\linewidth}
-\includegraphics[width=\linewidth]{../img/screenshot-1986-mathcad.png}
+\includegraphics[width=\linewidth]{img/screenshot-1986-mathcad.png}
 \end{columns}
 \end{frame}
 
@@ -87,7 +87,7 @@ I almost called this talk ``Literate Programming for Teaching,'' \\ because that
 \vspace{0.2 cm}
 \begin{columns}
 \column{0.83\linewidth}
-\includegraphics[width=\linewidth]{../img/screenshot-1987-mathematica.png}
+\includegraphics[width=\linewidth]{img/screenshot-1987-mathematica.png}
 \end{columns}
 \end{frame}
 
@@ -95,7 +95,7 @@ I almost called this talk ``Literate Programming for Teaching,'' \\ because that
 \vspace{0.2 cm}
 \begin{columns}
 \column{0.54\linewidth}
-\includegraphics[width=\linewidth]{../img/screenshot-2007-sage.png}
+\includegraphics[width=\linewidth]{img/screenshot-2007-sage.png}
 
 \column{0.38\linewidth}
 \Large
@@ -107,7 +107,7 @@ This is ``SAGE'' in 2007.
 \vspace{0.2 cm}
 \begin{columns}
 \column{0.6\linewidth}
-\includegraphics[width=\linewidth]{../img/screenshot-2012-ipython-notebook.png}
+\includegraphics[width=\linewidth]{img/screenshot-2012-ipython-notebook.png}
 \end{columns}
 \end{frame}
 
@@ -115,7 +115,7 @@ This is ``SAGE'' in 2007.
 \vspace{0.2 cm}
 \begin{columns}
 \column{0.52\linewidth}
-\includegraphics[width=\linewidth]{../img/screenshot-2015-jupyter-notebook.png}
+\includegraphics[width=\linewidth]{img/screenshot-2015-jupyter-notebook.png}
 
 \column{0.5\linewidth}
 \Large
@@ -127,15 +127,15 @@ This is ``SAGE'' in 2007.
 \vspace{0.2 cm}
 \begin{columns}
 \column{0.98\linewidth}
-\includegraphics[width=\linewidth]{../img/screenshot-2018-jupyterlab.png}
+\includegraphics[width=\linewidth]{img/screenshot-2018-jupyterlab.png}
 \end{columns}
 \end{frame}
 
-\begin{frame}{Notebooks are the middle of 3 fundamental modes of programming}
+\begin{frame}{Notebooks are the middle of three fundamental types of code editors}
 \vspace{0.2 cm}
 \begin{columns}
 \column{\linewidth}
-\includegraphics[width=\linewidth]{../img/fundamental-3-modes-of-programming.pdf}
+\includegraphics[width=\linewidth]{img/fundamental-3-modes-of-programming.pdf}
 \end{columns}
 \end{frame}
 
@@ -143,14 +143,14 @@ This is ``SAGE'' in 2007.
 \vspace{0.2 cm}
 \begin{columns}
 \column{0.45\linewidth}
-\includegraphics[width=\linewidth]{../img/fundamental-3-modes-batch.png}
+\includegraphics[width=\linewidth]{img/fundamental-3-modes-batch.png}
 
 \column{0.5\linewidth}
 \large
 \begin{itemize}\setlength{\itemsep}{0.25 cm}
-\item<1-> This is the oldest, from the punch-card, time-scheduling era.
+\item<1-> This is the oldest, from the punch-card, time-sharing era.
 \item<2-> Best for developing software libraries, with an emphasis on architecture and the large scale.
-\item<3-> Testing means running the whole program from scratch (maybe even compiling it if you're using one of {\it those} languages).
+\item<3-> Testing means running the whole program from its beginning (maybe even compiling it if you're using one of {\it those} languages).
 \item<4-> Conceit: you're a sculptor, carving a beautiful ediface that will stand the test of time.
 \end{itemize}
 \end{columns}
@@ -160,7 +160,7 @@ This is ``SAGE'' in 2007.
 \vspace{0.2 cm}
 \begin{columns}
 \column{0.45\linewidth}
-\includegraphics[width=\linewidth]{../img/fundamental-3-modes-terminal.png}
+\includegraphics[width=\linewidth]{img/fundamental-3-modes-terminal.png}
 
 \column{0.53\linewidth}
 \large
@@ -173,16 +173,16 @@ This is ``SAGE'' in 2007.
 \end{columns}
 \end{frame}
 
-\begin{frame}{Notebook: in between}
+\begin{frame}{Notebooks: in between}
 \vspace{0.2 cm}
 \begin{columns}
 \column{0.45\linewidth}
-\includegraphics[width=\linewidth]{../img/fundamental-3-modes-notebook.png}
+\includegraphics[width=\linewidth]{img/fundamental-3-modes-notebook.png}
 
 \column{0.53\linewidth}
 \large
 \begin{itemize}\setlength{\itemsep}{0.25 cm}
-\item<1-> Perceived as new, but it's had an important place in mathematical and data analysis software for almost as long as the spreadsheet.
+\item<1-> Perceived as new, but they've had an important place in mathematical and data analysis software for almost as long as the spreadsheet.
 \item<2-> Best for quick analyses that will likely be repeated: iterative investigation. Or for presenting code with detailed explanations, like a book, or teaching and running code in real-time.
 \item<3-> Testing is continuous and immediate.
 \item<4-> Conceit: Literate Programming!
@@ -196,22 +196,20 @@ This is ``SAGE'' in 2007.
 \column{1.03\linewidth}
 I believe that the time is ripe for significantly better documentation of programs, and that we can best achieve this by considering programs to be works of literature. Hence, my title: ``Literate Programming.''
 
-\vspace{0.2 cm}
 \hfill --- Donald Knuth, 1984
 
-\vspace{0.5 cm}
+\vspace{1.2 cm}
 
-\uncover<2->{A traditional computer program consists of a text file containing program code. Scattered amongst the program code are comments which describe the various parts of the code. In literate programming, the emphasis is reversed. Instead of writing code containing documentation, the literate programmer writes documentation containing code.}
+\uncover<2->{One deliberately writes a paper, not just comments, along with code.}
 
-\vspace{0.2 cm}
-\uncover<2->{\hfill --- Ross Williams, 1987}
+\uncover<2->{\hfill --- Doug McIlroy, 1986}
 
-\vspace{0.5 cm}
+\vspace{1.2 cm}
 
-\uncover<3->{One deliberately writes a paper, not just comments, along with code.}
+%% \uncover<3->{A traditional computer program consists of a text file containing program code. Scattered amongst the program code are comments which describe the various parts of the code. In literate programming, the emphasis is reversed. Instead of writing code containing documentation, the literate programmer writes documentation containing code.}
+\uncover<3->{Instead of writing code containing documentation, the literate programmer writes documentation containing code.}
 
-\vspace{0.2 cm}
-\uncover<3->{\hfill --- Doug McIlroy, 1986}
+\uncover<3->{\hfill --- Ross Williams, 1987}
 \end{columns}
 \end{frame}
 
@@ -241,7 +239,7 @@ Is it a good lecture presentation? \uncover<3->{\textcolor{orange}{\bf \LARGE No
 \item<4-> Font is too small; enlarging it would push too much off the screen.
 \item<5-> As a vertical document, it's prone to scrolling too fast.
 \item<6-> Too much code in the cells, hard to unpack.
-\item<7-> Students need software packages and data before they can start.
+\item<7-> Students can't start until they install the software and data files.
 \end{enumerate}
 \end{columns}
 \end{frame}
@@ -250,9 +248,75 @@ Is it a good lecture presentation? \uncover<3->{\textcolor{orange}{\bf \LARGE No
 \vspace{0.5 cm}
 \begin{columns}
 \column{1.1\linewidth}
-\href{https://youtu.be/UhidS7fZZko?si=Vyr35fZhaSuyyxSW}{\includegraphics[width=\linewidth]{../img/jupyter-talk-talk.png}}
+\href{https://youtu.be/UhidS7fZZko?si=Vyr35fZhaSuyyxSW}{\includegraphics[width=\linewidth]{img/jupyter-talk-talk.png}}
 \end{columns}
 \end{frame}
 
+\begin{frame}{All of the solutions I'll be presenting address these four problems}
+\Large
+\vspace{0.5 cm}
+\begin{columns}
+\column{0.58\linewidth}
+\begin{enumerate}\setlength{\itemsep}{0.35 cm}
+\item ``It's too small!''
+\begin{itemize}
+\item<2-> browser magnification
+\item<2-> CSS hacks
+\end{itemize}
+
+\item ``You're scrolling too fast!''
+\begin{itemize}
+\item<2-> slide presentations: jupyterlab-deck
+\item<2-> hiding hints and solutions
+\end{itemize}
+
+\item ``Too much code in the cells!''
+\begin{itemize}
+\item<2-> self-restraint?
+\item<2-> mini-libraries
+\end{itemize}
+
+\item ``It doesn't work for me!''
+\begin{itemize}
+\item<2-> Docker
+\item<2-> Binder
+\item<2-> Codespaces
+\item<2-> JupyterLite
+\end{itemize}
+\end{enumerate}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Before we get into it: how much interactivity are you going for?}
+\Large
+\vspace{0.5 cm}
+\begin{columns}
+\column{0.09\linewidth}
+\includegraphics[width=\linewidth]{img/more-interactivity.pdf}
+
+\column{0.9\linewidth}
+The students watch pre-evaluated slides.
+
+\vspace{0.5 cm}
+The students watch you evaluate the cells.
+
+\vspace{0.5 cm}
+The students press ``shift-enter'' along with you.
+
+\vspace{0.5 cm}
+You stop now and then to ask, ``what if I do {\it this} instead?''
+
+\vspace{0.5 cm}
+You include formal exercises in the talk (short or long).
+\end{columns}
+\end{frame}
+
+\begin{frame}{}
+\LARGE
+\vspace{1 cm}
+
+\centering Next stop: the Dockerfile
+
+\end{frame}
 
 \end{document}
