@@ -1,0 +1,9 @@
+# Jupyter and its extensions
+jupyterlab
+jupyterlab-deck
+
+# other Python packages
+numpy
+pandas
+matplotlib
+scikit-learn
