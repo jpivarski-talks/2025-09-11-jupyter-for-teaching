@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   id="svg6"
+   sodipodi:docname="jupyterlab-deck-icon.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="8.8680765"
+     inkscape:cx="10.148762"
+     inkscape:cy="18.267772"
+     inkscape:window-width="1592"
+     inkscape:window-height="977"
+     inkscape:window-x="216"
+     inkscape:window-y="60"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg6" />
+  <g
+     class="jp-icon3 jp-icon-selectable"
+     fill="#616161"
+     id="g4"
+     style="fill:#e5591f;fill-opacity:1"
+     transform="translate(0,2.5567784)">
+    <path
+       d="M 11.19,2.25 C 11.97,2.26 12.71,2.73 13,3.5 l 5,11.95 c 0.09,0.26 0.14,0.55 0.13,0.8 -0.02,0.75 -0.48,1.49 -1.23,1.8 L 9.53,21.1 C 9.27,21.22 9,21.25 8.74,21.25 7.97,21.23 7.24,20.77 6.93,20 L 1.97,8.05 C 1.55,7.04 2.04,5.87 3.06,5.45 L 10.42,2.4 c 0.25,-0.09 0.51,-0.15 0.77,-0.15 m 3.48,0 h 1.45 a 2,2 0 0 1 2,2 V 10.6 L 14.67,2.25 m 5.46,1.54 1.34,0.57 c 1.03,0.42 1.5,1.58 1.09,2.6 l -2.43,5.86 V 3.79 M 11.19,4.22 3.8,7.29 8.77,19.3 16.17,16.24 11.19,4.22 m -2.54,4.32 3.23,2.41 -0.44,4.01 -3.23,-2.42 z"
+       id="path2"
+       style="fill:#e5591f;fill-opacity:1" />
+  </g>
+</svg>
