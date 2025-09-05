@@ -1,6 +1,7 @@
 # Jupyter and its extensions
 jupyterlab
 jupyterlab-deck
+notebook
 
 # other Python packages
 numpy

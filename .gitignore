@@ -1,2 +1,12 @@
+# Jupyter stuff
 .ipynb_checkpoints
 .DS_Store
+
+# LaTeX stuff (making the introductory presentation)
+/make-introduction/main.aux
+/make-introduction/main.log
+/make-introduction/main.nav
+/make-introduction/main.out
+/make-introduction/main.pdf
+/make-introduction/main.snm
+/make-introduction/main.toc
