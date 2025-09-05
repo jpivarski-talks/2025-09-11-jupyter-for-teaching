@@ -7,7 +7,7 @@ COPY requirements.txt .
 # install all of the packages in the image (without a cache because we're only doing it once)
 RUN pip install --no-cache-dir -r requirements.txt
 
-# copy in some custom settings to control how Jupyter looks
+# copy in some custom settings to control how Jupyter looks (Jupyter is the /root user in the container)
 RUN mkdir -p /root/.jupyter/lab/user-settings/@jupyterlab/apputils-extension
 COPY settings/* /root/.jupyter/lab/user-settings/@jupyterlab/apputils-extension
 

@@ -1,6 +1,9 @@
 {
+    // these are default font sizes; I'm showing how to override if you want to
     "overrides": {
+        // code cells
         "code-font-size": "13px",
+        // markdown cells
         "content-font-size1": "14px"
     }
 }
