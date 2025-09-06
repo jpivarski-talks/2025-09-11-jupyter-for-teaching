@@ -1,6 +1,6 @@
 # Jupyter for Teaching (2025-09-11)
 
-These are materials for the the UChicago DSI fall preceptor workshop, held on Thursday, September 11, 2025 at 9:30am in JCL 298.
+These are materials for the the UChicago DSI fall preceptor workshop, held on Thursday, September 11, 2025 at 9:30‒11:30am in JCL 298.
 
 > **Abstract:**
 >
